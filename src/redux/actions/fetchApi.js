@@ -26,7 +26,7 @@ export const getCovidFromApi = () => async (dispatch) => {
   const response = await request.json();
   const data = response.dates[todayDate].countries;
   const entries = Object.entries(data);
-  dispatch(getCovid(entries))
+  dispatch(getCovid(entries));
 };
 
 const reducer = (state = initialState, action) => {
@@ -38,7 +38,6 @@ const reducer = (state = initialState, action) => {
     default:
       return state;
   }
-
 };
 
 export default reducer;
