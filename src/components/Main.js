@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Country from './countrylist';
-import { getCovidFromApi, getCovid } from '../redux/actions/fetchApi';
+import { getCovidFromApi, getCovid } from '../redux/actions/fetchapi';
 
 const todayDate = new Date().toISOString().slice(0, 10);
 const Home = () => {
@@ -15,8 +15,11 @@ const Home = () => {
   const handleSub = () => {
     const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;
-    if (num > todayDate) {
+    if (num === '') {
       alert('Please, provide a valid date!');
+    }
+    if (num > todayDate) {
+      alert('Please, provide a valid date!');// eslint-disable-line no-eval
       document.getElementById('date').value = '';
     } else {
       const api = () => async () => {
@@ -38,10 +41,10 @@ const Home = () => {
       <form>
         <input type="date" id="date" format="YYYY-MM-DD" />
         <button id="sub" onClick={handleSub} type="button">
-          CLICK!
+          CLICK
         </button>
         <br />
-        <input placeholder="SEARCH BY COUNTRY NAME" className="search" type="text" value={value} onChange={inputHandler} />
+        <input placeholder="SEARCH..." className="search" type="text" value={value} onChange={inputHandler} />
       </form>
       <div className="title">
         {' '}

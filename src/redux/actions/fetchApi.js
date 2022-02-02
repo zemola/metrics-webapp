@@ -19,8 +19,6 @@ export const getCountry = (payload) => ({
   payload,
 });
 
-// Middleware
-
 export const getCovidFromApi = () => async (dispatch) => {
   const request = await fetch(baseUrldate);
   const response = await request.json();
