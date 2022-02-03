@@ -1,8 +1,8 @@
 # Space-Travelers-Hub
 - In this group task, we were working with the real live data from the SpaceX API. Our task was to build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets, dragons and join selected space missions.
 
-![main_Page](src\images\main.png)
-![Detail_Page](src\images\detail.png)
+![main_Page](https://github.com/zemola/metrics-webapp/blob/feature/basic-structure/src/images/main.png)
+![Detail_Page](https://github.com/zemola/metrics-webapp/blob/feature/basic-structure/src/images/detail.png)
 
 ## Built With
 
