@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import covidReducer from '../redux/actions/fetchapi';
+import covidReducer from '../redux/actions/fetchApi';
 
 const reducer = combineReducers({
   covidReducer,

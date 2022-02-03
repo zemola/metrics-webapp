@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { getCovidFromApi, getCountry } from '../redux/actions/fetchapi';
-import Details from './details';
+import { getCovidFromApi, getCountry } from '../redux/actions/fetchApi';
+import Details from './Details';
 
 const DetailsList = () => {
   const dispatch = useDispatch();

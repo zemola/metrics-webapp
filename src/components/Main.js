@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Country from './countrylist';
-import { getCovidFromApi, getCovid } from '../redux/actions/fetchapi';
+import { getCovidFromApi, getCovid } from '../redux/actions/fetchApi';
 
 const todayDate = new Date().toISOString().slice(0, 10);
 const Home = () => {
