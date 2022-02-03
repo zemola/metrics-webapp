@@ -15,11 +15,7 @@ const Home = () => {
   const handleSub = () => {
     const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;
-    if (num === '') {
-      // alert('Please, provide a valid date!');// eslint-disable-line no-eval
-    }
     if (num > todayDate) {
-      // alert('Please, provide a valid date!');// eslint-disable-line no-eval
       document.getElementById('date').value = '';
     } else {
       const api = () => async () => {
