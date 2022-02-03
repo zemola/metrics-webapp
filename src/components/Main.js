@@ -15,8 +15,6 @@ const Home = () => {
   const handleSub = () => {
     const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;
-    if (num === '') {
-    }
     if (num > todayDate) {
       document.getElementById('date').value = '';
     } else {
