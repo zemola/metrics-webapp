@@ -16,7 +16,6 @@ const DetailsList = () => {
   const handleCountry = () => {
     const country = useParams();
     const hello = country.country;
-    // const num = document.getElementById('date').value;
     const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${todayDate}/country/${hello}`;
     const api = () => async () => {
       const request = await fetch(baseUrldate);
