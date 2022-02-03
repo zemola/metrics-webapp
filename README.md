@@ -16,6 +16,9 @@
 
 > Project live demo on [Netlify](https://coviid-webapp.netlify.app/)
 
+## PROJECT PRESENTATION
+
+> Project live demo on [LOOM](https://www.loom.com/share/684ec67477ea4b3995e448a328a6ff30)
 
 # Getting Started
 ## Prerequisites:
