@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-> Project live demo on [Netlify](https://coviid-webapp.netlify.app/)
+> Project live demo on [Heroku](https://coviidd.herokuapp.com/)
 
 ## PROJECT PRESENTATION
 
