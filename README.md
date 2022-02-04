@@ -62,7 +62,7 @@ Feel free to check the [issues page](https://github.com/zemola/metrics-webapp/is
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-Thanks to my teammates, learning and coding partners.
+Thanks to Nelson Sakwa whose design template was used for this project.
 
 ## 📝 License
 
