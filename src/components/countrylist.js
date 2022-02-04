@@ -1,4 +1,5 @@
 import { FaArrowCircleRight } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const Country = (props) => {
   const country = props;
@@ -6,9 +7,9 @@ const Country = (props) => {
     <div className="wrapper">
       <div className="btn-head">
         <h1 className="btn" type="button" id={country.country}>{country.country}</h1>
-        <a className="click-link" href={country.country}>
+        <NavLink className="click-link" to={`/${country.country}`}>
           <FaArrowCircleRight />
-        </a>
+        </NavLink>
       </div>
       <p>
         Total-Confirmed:
